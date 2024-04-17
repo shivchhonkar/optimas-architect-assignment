@@ -1,0 +1,29 @@
+.tabs ul{
+    display: flex;
+    justify-content: start;
+    padding: 0px;
+}
+.tabs ul li{
+    width: 165px;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.13);
+    color: #FFBF47;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.tabs ul li+li{
+    margin-left: 10px;
+}
+.tabs ul li:hover{
+    background: #FFBF47;
+    color: black;
+}
+.tabs ul li.active{
+    background: #FFBF47;
+    color: black;
+}
+.tabs .tab-content{
+    min-height: 200px;
+}

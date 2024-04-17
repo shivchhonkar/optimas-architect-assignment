@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.center-content-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-icon{
+    background-image: url('http://localhost:3000/images/animation/animation2.gif');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    mix-blend-mode: lighten;
+    padding: 40px;
+}
+.footer-right-icon{
+    background-image: url('http://localhost:3000/images/animation/animation1.gif');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    mix-blend-mode: lighten;
+    padding: 40px;
+}
+.admin-icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    mix-blend-mode: lighten;
+    background-image: url('http://localhost:3000/images/animation/button-animation.gif');
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: 100px 100px;
+}
+.admin-icons-container img+img {
+    position: absolute;
+    height: 34px;
+    width: 40px;
+  }
+
+
+.officer-icons-container img+img{
+    position: absolute;
+    height: 34px;
+    width: 40px;
+}

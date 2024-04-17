@@ -1,0 +1,96 @@
+.login-container {
+  display: flex;
+  padding: 20px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+    
+  }
+.left{
+  background: #020224;
+    opacity: .2;
+    opacity: 0.37;
+    mix-blend-mode: lighten;
+     background-image: url('http://localhost:3000/images/left-image.gif');
+    /* ./public/your-image.png */
+    width: 900px;
+/*  */
+    background: #020224;
+    opacity: .2;
+    opacity: 0.37;
+    mix-blend-mode: lighten;
+    background-image: url(http://localhost:3000/images/left-image.gif);
+    width: 1212px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -490px;
+}
+.right{
+  width: 300px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(25, 3, 107, 0.1);
+  background: repeating-linear-gradient(to bottom, rgba(15, 1, 75, 0.03) 0, rgba(24, 13, 63, 0.5) 1px, transparent 1px, transparent 2px); /* Adjust the transparency and spacing as needed */
+  background-color: #1d2253;
+  opacity: .8;
+}
+  .login-container h3 {
+    text-align: left;
+    color: white; /* White text color */
+    font-size: 18px;
+  }
+  .form-group img{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+  }
+  .form-group {
+    align-items:center;
+    display: flex;            
+    margin-bottom: 20px;
+    position: relative;
+    justify-content: space-between;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white; /* White text color */
+  }
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: calc(100% - 30px);
+    padding:10px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue; /* Light blue input background */
+    color: darkblue; /* Dark blue text color */
+  }
+  .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    pointer-events: none;
+    fill: darkblue; /* Dark blue fill color for SVG icon */
+  }
+  .forgot-password a {
+    color: white; /* White text color for the "Forgot Password?" link */
+    display: inline-block; /* Display as inline-block to align with button */
+    margin-right: 10px; /* Add margin to separate from the button */
+  }
+  .forgot-password a:hover {
+    text-decoration: underline; /* Underline on hover for the link */
+  }
+  .form-group button[type="submit"] {
+    width: calc(50% - 5px); /* Set width to half of the container */
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 191, 71, 1); /* Yellow button background color */
+    color: darkblue; /* Dark blue button text color */
+    cursor: pointer;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+  .form-group button[type="submit"]:hover {
+    background-color: #ffd700; /* Lighter yellow on hover */
+  }
